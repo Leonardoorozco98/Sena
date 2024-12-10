@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina Web</title>
+    <link rel="stylesheet" href="Css/Style.css">
+</head>
+<body>
+    <header>
+        <img src="Images/Logo.png" alt="logo" width="120px">
+        <h1>Mi pagina web</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html" >Inicio </a></li>
+                <li><a href="Pages/Contactos.html" >Contactos</a></li>
+                <li><a href="Pages/Sobre nosotros.html" >Sobre nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <Main>
+        <Section id="home">
+<h2>Bienvenidos a nuestra pagina</h2>
+<h3>  GA3-220501093-AA3-EV02 resolución a problemas algorítmicos aplicando estructuras de almacenamiento </h3>
+<p>Desarrollar un programa que permita calcular el área o perímetro de algunas figuras planas según la siguiente tabla: </p>
+<img src="Images/cuadro.jpg" alt="cuadro">
+<p>Algoritmo Calculo_de_figuras</p>
+<p>  Mostrar("Selecciona la figura para calcular (1. Triángulo Isósceles, 2. Rectángulo, 3. Cuadrado, 4. Círculo):")
+<p>   Leer opcion
+    
+ <p>  Si opcion = 1 Entonces
+<p>     Mostrar("Has seleccionado Triángulo Isósceles.")
+ <p>     Mostrar("Introduce la base del triángulo:")
+ <p>     Leer base
+<p>       Mostrar("Introduce la altura del triángulo:")
+<p>       Leer altura 
+<p>      Mostrar("Introduce el lado del triángulo:")
+<p>      Leer lado
+        
+<p>     Mostrar("¿Qué deseas calcular? (1. Área, 2. Perímetro):")
+</p>    Leer calculo
+        
+<p>     Si calculo = 1 Entonces
+</p>        area <- (base * altura) / 2
+<p>           Mostrar"El área del triángulo isósceles es: ", area
+    <p>       Sino
+<p>           perimetro <- 2 * lado + base
+<p>           Mostrar"El perímetro del triángulo isósceles es: ", perimetro
+<p>       FinSi
+<p>	FinSi
+
+<p>		Si opcion = 2 Entonces
+<p>	Mostrar("Has seleccionado Rectángulo.")
+<p>	Mostrar("Introduce la base del rectángulo:")
+<p>Leer base
+<p>Mostrar("Introduce la altura del rectángulo:")
+<p>Leer altura
+
+<p>Mostrar("¿Qué deseas calcular? (1. Área, 2. Perímetro):")
+<p>Leer calculo
+
+<p>		Si calculo = 1 Entonces
+<p>area <- base * altura
+<p>Mostrar "El área del rectángulo es: ", area
+<p>Sino
+<p>perimetro <- 2 * (base + altura)
+<p>Mostrar"El perímetro del rectángulo es: ", perimetro 
+<p>FinSi
+<p>Finsi	
+<p>Si opcion = 3 Entonces
+<p>Mostrar("Has seleccionado Cuadrado.")
+<p>Mostrar("Introduce el lado del cuadrado:")
+<p>Leer lado
+
+<p>Mostrar("¿Qué deseas calcular? (1. Área, 2. Perímetro):")
+<p>			Leer calculo
+
+<p>Si calculo = 1 Entonces
+<p>area <- lado * lado
+<p>				Mostrar "El área del cuadrado es: ", area
+<p>			Sino
+<p> perimetro <- 4 * lado
+<p>	Mostrar "El perímetro del cuadrado es: ", perimetro 
+<p>		FinSi
+<p>	Finsi	
+<p>	Si opcion = 4 Entonces
+<p>		Mostrar("Has seleccionado Círculo.")
+<p>	Mostrar("Introduce el radio del círculo:")
+<p>	Leer radio
+
+<p> Mostrar("¿Qué deseas calcular? (1. Área, 2. Perímetro):")
+<p>Leer calculo
+
+<p>Si calculo = 1 Entonces
+<p>area <- 3.1416 * radio * radio
+<p>Mostrar "El área del círculo es: ", area
+<p>Sino
+<p>perimetro <- 2 * 3.1416 * radio
+<p>Mostrar "El perímetro del círculo es: ", perimetro
+<p>FinSi
+
+<p>Sino
+<p>Mostrar("Opción no válida.")
+<p>FinSi
+
+<p>FinAlgoritmo
+</p>
+        </Section>
+        <section id="Section2">
+<img src="Images/Calculo de figuras.png" alt="calculo de figuras" width="800px"> <br>
+<p></p>
+    <audio src="" controls></audio> <br>
+<video src=""controls></video><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L2KbJaJx8WM?si=DRxD42jCKX0DKGtl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </Main>
+    <Footer>
+<p>&copy; 2024 mi pagina. Todos los derechos reservados</p>
+
+    </Footer>
+</body>
+</html>
